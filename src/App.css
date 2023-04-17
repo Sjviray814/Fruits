@@ -1,0 +1,26 @@
+body {
+  font-family: 'Abel';
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh;
+}
+.card-container{
+  display: grid;
+  gap: 3vw;
+  margin: 5%;
+  margin-top: 5vh;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+form{
+  display: flex;
+  gap: 3vw;
+  justify-content: center;
+  margin-top: 5vh;
+  font-size: 1.5rem;
+  flex-flow: row wrap;
+}
