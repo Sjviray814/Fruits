@@ -113,7 +113,10 @@ export default function App() {
 
   return (
     <div>
-
+      <div className="top">
+        <h1 className="top-title">Fruit Chooser</h1>
+        <div>Note: All nutrition facts are based off of 100g of each fruit</div>
+      </div>
       <form>
         <input type='text' value={searchValue} onChange={handleChange} placeholder='Fruit Name' />
 
@@ -159,6 +162,8 @@ export default function App() {
           </select>
 
         </div>
+
+
 
       </form>
 

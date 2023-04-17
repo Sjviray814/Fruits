@@ -24,3 +24,14 @@ form{
   font-size: 1.5rem;
   flex-flow: row wrap;
 }
+.top{
+  width: 100vw;
+  text-align: center;
+}
+.top-title{
+  font-size: 6rem;
+  margin-bottom: 2vh;
+}
+.top div{
+  font-size: 1.5rem;
+}
